@@ -1,0 +1,20 @@
+import java.util.Scanner;
+	
+ 
+public class Media {
+	
+	String[] alunos = {"Ana Gabriely","Ana Pereira","Ana Luiza","Ana Livia","Ana Carol","Ana Clara","Ana Dalboni","Ana Castela","Ana Julia","Ana Fernandes"};
+	Scanner objScanner = new Scanner(System.in);
+	int cont = 1 ;
+	 void listarAlunos( ) {
+		 String[] nomes = new String[5];
+	        
+	        for (int i = 0; i < nomes.length; i++) {
+	            System.out.println("Digite o " + (i+1) + "º nome:");
+	        
+	        System.out.println("Os nomes digitados foram:");
+	        for (String nome : nomes) {
+	            System.out.println(nome);
+	        }
+	    }
+	}

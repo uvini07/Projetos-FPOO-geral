@@ -1,0 +1,17 @@
+
+public class LoopDoWhile {
+	
+	public void loopDo() {
+		
+		int contador = 0;
+			
+		do {
+			
+			System.out.println("O VALOR DO CONTADOR DO LOOP DO WHILE É: " + contador);
+			
+		} while (contador <=10);
+		
+	}
+	
+}
+

@@ -1,0 +1,12 @@
+
+public class Main {
+
+	public static void main(String[] args) {
+
+		LoopWhile objWhile = new LoopWhile();
+		
+		objWhile.loopWhileContador();
+		objWhile.loopWhileContador2(10);
+	}
+
+}

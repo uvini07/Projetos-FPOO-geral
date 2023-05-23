@@ -1,0 +1,22 @@
+import java.util.Scanner;
+	
+ 
+public class Media {
+	
+	String[] alunos = {""};
+	Scanner objScanner = new Scanner(System.in);
+	
+	 void listarAlunos( ) {
+		
+		
+   for(int indice = 0; indice < alunos.length; indice++) { 
+   
+   
+   		System.out.println("TOTAL DE ALUNOS:" + alunos.length);	
+		
+		
+	}
+
+}
+
+    

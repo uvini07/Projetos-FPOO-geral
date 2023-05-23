@@ -1,0 +1,3 @@
+public void testeVazio(String texto) {
+		if(texto.isEmpty()){
+			System.out.println("DIGITE UM TEXTO: ");
